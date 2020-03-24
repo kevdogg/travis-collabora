@@ -20,13 +20,13 @@
 
 timezone: America/Chicago
 
-title: Collabora/Nextcloud/Docker Integration
+title: Authelia Documentation
 email: your-email@example.com
-description: Instructions how to integrate Collobora Docker in to your Nextcloud Site
+description: Testing travis
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://collabora.gohilton.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+url: "https://sitedocs.gohilton.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 #theme: minima
@@ -50,12 +50,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Collabora":
-    - "https://www.collaboraoffice.com/code/"
-  "Nextcloud":
-    - "https://nextcloud.com"
-  "Docker":
-    - "https://hub.docker.com/r/collabora/code/"
+  "Authelia on GitHub":
+    - "//github.com/authelia/authelia"
 
 # Footer content appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 2020 KevDog"
@@ -82,6 +78,7 @@ highlighter: rouge
 include:
   - .htaccess
   - .env
+  - _redirects
 
 exclude:
   - .sass-cache/
